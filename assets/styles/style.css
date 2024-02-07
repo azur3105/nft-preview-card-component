@@ -150,10 +150,11 @@ body {
 }
 
 .overlay {
+  transition: opacity 0.3s ease;
   position: absolute;
   width: 100%;
   height: 100%;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(178, 100%, 50%, 0.5);
@@ -165,5 +166,5 @@ body {
 }
 
 .nft-image:hover .overlay {
-  display: flex;
+  opacity: 1;
 }
