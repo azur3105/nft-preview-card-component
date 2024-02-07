@@ -151,6 +151,7 @@ body {
 
 .overlay {
   transition: opacity 0.3s ease;
+  opacity: 0;
   position: absolute;
   width: 100%;
   height: 100%;
