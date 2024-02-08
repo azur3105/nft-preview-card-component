@@ -62,7 +62,7 @@ body {
 
 .title {
   color: var(--white);
-
+  width: fit-content;
   font-size: 22px;
   font-weight: 600;
 }
